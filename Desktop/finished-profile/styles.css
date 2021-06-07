@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.Header {
+    padding: 50px;
+    background-color: brown;
+    size: auto;
+    contain: layout;
+}
+
+.Header h1 {
+    float: left;
+    font-weight: bold;
+    color: orange;
+    display: inline-flex;
+    font-size: 36px;
+}
+
+.Header img {
+    margin: 25px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.Header nav {
+    float: right;
+    margin: 7px 0;
+    display: inline-flex;
+}
+
+.Header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.About-me {
+    background-color: orangered;
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.About-me h2 {
+    float: left;
+    color: white;
+    border-right: solid;
+    padding: 25px;
+}
+
+.About-me p {
+    float:right;
+    padding: 25px;
+    line-height: 1.5;
+    color: white; 
+}
+
+.Work {
+    background-color: brown;
+    display: inline-flex;
+    width: 100%; 
+}
+.Work h2 {
+    float: left;
+    color: orange;
+    border-right: solid;
+    padding: 25px;
+}
+
+.flex-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.run-buddy {
+    padding: 25px;
+}
+
+.thumbnail-run:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.box-r {
+    color: orangered;
+    background-color: white;
+}
+
+.Horiseon {
+    padding: 25px;
+}
+
+.thumbnail-hor:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.box-h {
+    color: orangered;
+    background-color: white;
+}
+
+.Contact-me {
+    padding: 25px;
+    background-color: chocolate;
+    size: auto;
+    contain: layout;
+}
+
+.Contact-me h2 {
+    float: left;
+    color: white;
+    border-right: solid;
+    padding: 25px; 
+}
+
+.Contact-me a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.Contact-me nav {
+    float: right;
+    margin: 7px 0;
+    display: inline-flex;
+}
+
+.Contact-me nav ul li{
+    display: inline;
+}
+
+.Contact-me nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
